@@ -28,7 +28,7 @@ You'll be creating a web page that will display important scientific data about 
 - [x] Venus
 - [x] Earth
 - [x] Mars
-- [ ] Jupiter
+- [x] Jupiter
 - [ ] Saturn
 - [ ] Uranus
 - [ ] Neptune
