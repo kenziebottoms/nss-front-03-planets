@@ -49,6 +49,23 @@ let planet = {
 const outputTo = domElement => {
     let content = `<planet id="${planet.name}">
         <h3 class="my-3">${planet.name}</h3>
+        <div class="row d-flex">
+            <div class="stat">
+                <i class="material-icons">event</i> ${planet.discovered}
+            </div>
+            <div class="stat">
+                <i class="material-icons">work</i> ${planet.mass}
+            </div>
+            <div class="stat">
+                <i class="material-icons">accessibility</i> ${planet.diameter}
+            </div>
+            <div class="stat">
+                <i class="material-icons">repeat_one</i> ${planet.year}
+            </div>
+            <div class="stat">
+                <i class="material-icons">directions_run</i> ${planet.distance_from_sun} from the sun
+            </div>
+        </div>
         <div class="row">
             <div class="col-6">
                 <h5 class="my-4">Atmospheric Composition</h5>
@@ -68,22 +85,6 @@ const outputTo = domElement => {
                 </table>
             </div>
             <div class="col-6">
-                <h5 class="my-4">Statistics</h5>
-                <div class="stat">
-                    <i class="material-icons">event</i> ${planet.discovered}
-                </div>
-                <div class="stat">
-                    <i class="material-icons">work</i> ${planet.mass}
-                </div>
-                <div class="stat">
-                    <i class="material-icons">accessibility</i> ${planet.diameter}
-                </div>
-                <div class="stat">
-                    <i class="material-icons">repeat_one</i> ${planet.year}
-                </div>
-                <div class="stat">
-                    <i class="material-icons">directions_run</i> ${planet.distance_from_sun} from the sun
-                </div>
                 <h5 class="my-4">Satellites</h5>
                 <ul>`;
                     if (planet.satellites.length > 0) {

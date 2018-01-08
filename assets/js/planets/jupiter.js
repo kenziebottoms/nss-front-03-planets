@@ -1,33 +1,50 @@
 "use strict";
 
 let planet = {
-    "name": "Mars",
-    "discovered": "4th millennium B.C.",
-    "mass": "6.4171 &times; 10<sup>23</sup> kg",
-    "diameter": "6,779.0 km",
-    "distance_from_sun": "~230,000,000 km",
+    "name": "Jupiter",
+    "discovered": "7th century B.C.",
+    "mass": "1.8982 &times; 10<sup>27</sup> kg",
+    "diameter": "142,984 km",
+    "distance_from_sun": "~778,000,000 km",
     "atmospheric_composition": [
-        ["95.97%", "carbon dioxide"],
-        ["1.93%", "argon"],
-        ["1.89%", "nitrogen"],
-        ["0.146%", "oxygen"],
-        ["0.0557%", "carbon monoxide"]
+        ["89%", "hydrogen"],
+        ["10%", "helium"],
+        ["0.3%", "methane"],
+        ["0.026%", "ammonia"],
+        ["0.0028%", "hydrogen deuteride"],
+        ["0.0006%", "ethane"],
+        ["0.0004%", "water"],
     ],
     "satellites": [
-        "Phobos",
-        "Deimos"
+        "Metis",
+        "Adrastea",
+        "Amalthea",
+        "Thebe",
+        "Io",
+        "Europa",
+        "Ganymede",
+        "Callisto",
+        "Themisto",
+        "Leda",
+        "Himalia",
+        "Lysithea",
+        "Elara",
+        "Dia",
+        "Carpo",
+        "Many, many others"
     ],
     "visiting_probes": [
-        "2001 Mars Odyssey",
-        "Mars Express",
-        "Mars Reconnaissance Orbiter",
-        "MAVEN",
-        "Mars Orbiter Mission",
-        "ExoMars Trace Gas Orbiter",
-        "Mars Exploration Rover Opportunity",
-        "Mars Science Laboratory Curiosity"
+        "Pioneer 10",
+        "Pioneer 11",
+        "Voyager 1",
+        "Voyager 2",
+        "Ulysses",
+        "Galileo",
+        "Cassini",
+        "New Horizons",
+        "Juno"
     ],
-    "year": "686 days"
+    "year": "11.86 years"
 };
 
 const outputTo = domElement => {

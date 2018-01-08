@@ -1,5 +1,8 @@
 planet {
-    margin: 3rem 0;
+    margin: 2rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: block;
 }
 .material-icons {
     vertical-align: bottom;
@@ -8,6 +11,12 @@ planet {
 }
 .stat {
     padding: .25rem;
+}
+.d-flex {
+    .stat {
+        margin-right: 1rem;
+        margin-left: .75rem;
+    }
 }
 table.atmos {
     font-size: .9rem;
