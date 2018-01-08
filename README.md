@@ -13,14 +13,14 @@ You'll be creating a web page that will display important scientific data about 
     ```
     
 2. Each module should output the following information.
-    [x] Name
-    [x] Year discovered
-    [x] Mass
-    [x] Size
-    [x] Distance from Sun
-    [x] Atmosphere composition
-    [x] Satellites
-    [x] Name of any probes/orbiters/explorers that have visited or landed on that planet
+    - [x] Name
+    - [x] Year discovered
+    - [x] Mass
+    - [x] Size
+    - [x] Distance from Sun
+    - [x] Atmosphere composition
+    - [x] Satellites
+    - [x] Name of any probes/orbiters/explorers that have visited or landed on that planet
 
 3. Create a `main` module that uses `require` to include each planet's module as a dependency and calls the `outputTo()` method for each one, in the right order.
 
