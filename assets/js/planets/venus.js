@@ -47,7 +47,7 @@ let planet = {
 };
 
 const outputTo = domElement => {
-    const template = require("../../templates/tall-stats.hbs");
+    const template = require("../../templates/compact-stats.hbs");
     domElement.innerHTML = template({"planet": planet});
 };
 

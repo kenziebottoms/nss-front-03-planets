@@ -21,9 +21,6 @@
         <div class="col-6">
             <h5 class="my-4">Statistics</h5>
             <div class="stat">
-                <i class="material-icons">event</i> {{planet.discovered}}
-            </div>
-            <div class="stat">
                 <i class="material-icons">work</i>
                 {{{planet.mass}}}
             </div>
@@ -49,12 +46,6 @@
                     <li>None</li>
                 {{/if}}
             </ul>
-            <h5 class="my-4">Probes/Explorers</h5>
-            {{#if planet.visiting_probes.length}}
-                {{#each planet.visiting_probes}}
-                    <li>{{this}}</li>
-                {{/each}}
-            {{/if}}
         </div>
     </div>
 </planet>
