@@ -31,7 +31,7 @@ You'll be creating a web page that will display important scientific data about 
 - [x] Jupiter
 - [x] Saturn
 - [x] Uranus
-- [ ] Neptune
+- [x] Neptune
 
 ## Bonus stretch goal
 

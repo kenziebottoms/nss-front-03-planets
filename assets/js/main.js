@@ -7,6 +7,7 @@ const mars = require("./planets/mars");
 const jupiter = require("./planets/jupiter");
 const saturn = require("./planets/saturn");
 const uranus = require("./planets/uranus");
+const neptune = require("./planets/neptune");
 
 mercury.outputTo(document.getElementById("mercury"));
 venus.outputTo(document.getElementById("venus"));
@@ -15,3 +16,4 @@ mars.outputTo(document.getElementById("mars"));
 jupiter.outputTo(document.getElementById("jupiter"));
 saturn.outputTo(document.getElementById("saturn"));
 uranus.outputTo(document.getElementById("uranus"));
+neptune.outputTo(document.getElementById("neptune"));
