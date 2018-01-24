@@ -1,6 +1,6 @@
 # Solar System Info with Browserify
 
-![](https://img.shields.io/badge/data-nasa_api-blue.svg)
+![](https://img.shields.io/badge/data-static-lightgrey.svg)
 ![](https://img.shields.io/badge/template-handlebars-orange.svg)
 ![](https://img.shields.io/badge/js-jquery-blue.svg)
 ![](https://img.shields.io/badge/modularity-browserify-yellow.svg)
