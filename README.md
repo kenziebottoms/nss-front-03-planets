@@ -1,5 +1,21 @@
 # Solar System Info with Browserify
 
+![](https://img.shields.io/badge/data-static-lightgrey.svg)
+![](https://img.shields.io/badge/template-handlebars-orange.svg)
+![](https://img.shields.io/badge/js-jquery-blue.svg)
+
+![](https://img.shields.io/badge/mvp-working-brightgreen.svg)
+![](https://img.shields.io/badge/bonus-none-lightgrey.svg)
+
+## Run Locally
+
+```
+> git clone git@github.com:kenziebottoms/nss-front-03-planets.git
+...
+> npm install
+> grunt
+```
+
 ## Requirements
 
 You'll be creating a web page that will display important scientific data about all eight planets in our solar system. :warning: The information about each planet will be separate modules.
