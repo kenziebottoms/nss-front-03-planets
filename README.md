@@ -4,7 +4,6 @@
 ![](https://img.shields.io/badge/template-handlebars-orange.svg)
 ![](https://img.shields.io/badge/js-jquery-blue.svg)
 ![](https://img.shields.io/badge/modularity-browserify-ff69b4.svg)
-
 ![](https://img.shields.io/badge/mvp-working-brightgreen.svg)
 ![](https://img.shields.io/badge/bonus-none-lightgrey.svg)
 
