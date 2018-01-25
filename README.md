@@ -12,10 +12,9 @@
 ## Run Locally
 
 ```
-> git clone git@github.com:kenziebottoms/nss-front-03-planets.git
-...
-> npm install
-> grunt
+git clone git@github.com:kenziebottoms/nss-front-03-planets.git
+npm install
+grunt
 ```
 
 ## Requirements
