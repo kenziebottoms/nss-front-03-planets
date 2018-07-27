@@ -13,8 +13,10 @@
 
 ```
 git clone git@github.com:kenziebottoms/nss-front-03-planets.git
+cd nss-front-03-planets
 npm install
 grunt
+hs -o
 ```
 
 ## Requirements
